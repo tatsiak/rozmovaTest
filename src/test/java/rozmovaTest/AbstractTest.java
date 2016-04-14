@@ -25,7 +25,7 @@ public class AbstractTest {
     }
     @After
     public  void postCondition(){
-       // driver.close();
+        driver.close();
     }
 
 }
