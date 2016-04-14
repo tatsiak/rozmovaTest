@@ -99,7 +99,7 @@ public class RegistrationTest extends AbstractTest{
         mainPage.goToRegistration();
         registrationPopUp.enterMail();
         registrationPopUp.enterName("Bill");
-        registrationPopUp.enterSurname("Gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaates");
+        registrationPopUp.enterSurname("Gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaates");
         registrationPopUp.enterNick();
         registrationPopUp.enterPassword("bill12345");
         registrationPopUp.confirmPassword("bill12345");
@@ -143,7 +143,7 @@ public class RegistrationTest extends AbstractTest{
     }
 
 
-    //в этом месте не правильное сообщение об ошибке
+
     @Test
     public void registrationWithInvalidNick() throws InterruptedException {
         mainPage.open();
